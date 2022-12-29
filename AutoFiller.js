@@ -38,7 +38,7 @@
     */
     function finishSurvey() {
       let survey = getSurvey();
-      survey.click();
+      survey.querySelector("div").click();
       console.log(`clicked on survey: ${survey.innerText}`);
       console.log(survey);
     }
